@@ -1,3 +1,14 @@
 <Solution>
-  <Project Path="SimpleNotificationApp/SimpleNotificationApp.csproj" />
+  <Folder Name="/01 - Application/">
+    <Project Path="SimpleNotificationApp.Application/SimpleNotificationApp.Application.csproj" />
+  </Folder>
+  <Folder Name="/02 - Infra/">
+    <Project Path="SimpleNotificationApp.Infrastructure/SimpleNotificationApp.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/03 - Domain/">
+    <Project Path="SimpleNotificationApp.Domain/SimpleNotificationApp.Domain.csproj" />
+  </Folder>
+  <Folder Name="/04 - Api/">
+    <Project Path="SimpleNotificationApp/SimpleNotificationApp.Api.csproj" />
+  </Folder>
 </Solution>
